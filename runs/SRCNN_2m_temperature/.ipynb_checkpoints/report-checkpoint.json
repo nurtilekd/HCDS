@@ -1,0 +1,47 @@
+{
+  "config": {
+    "model": "SRCNN",
+    "years": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ],
+    "variable": "2m_temperature",
+    "seed": 0,
+    "epochs": 400,
+    "lr": 0.0001,
+    "batch_size": 32,
+    "device": "cuda"
+  },
+  "baseline_error": {
+    "mae": 0.005972467084198935,
+    "rmse": 0.010434970685874229
+  },
+  "trained_error": {
+    "mae": 0.004073075211692305,
+    "rmse": 0.007696686321555743
+  },
+  "error_reduction": {
+    "mae": 31.802466982727427,
+    "rmse": 26.24141884773369
+  },
+  "baseline_violation": {
+    "mean_consistency_rmse": 0.0,
+    "negatives_per_million": 0.0
+  },
+  "trained_violation": {
+    "mean_consistency_rmse": 0.14839782539392807,
+    "negatives_per_million": 0.0
+  },
+  "violation_reduction": {
+    "mean_consistency_rmse": null,
+    "negatives_per_million": 0.0
+  }
+}
